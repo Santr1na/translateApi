@@ -130,6 +130,9 @@ addopts = [
     "--cov-report=term-missing",
 ]
 
+[tool.poetry]
+version = "1.0.0"
+
 ignore = [
     "E501", # line too long
     "A003", # Class attribute is shadowing a python builtin
